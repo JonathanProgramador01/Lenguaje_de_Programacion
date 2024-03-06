@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+
+
+	double Base, Altura;
+
+	printf("Ingresaa tu Altura y tu Base: ");
+	scanf("%lf%lf",&Base,&Altura);
+	printf("El area de tu triangulo es: %.2lf",Base*Altura/2);
+
+
+
+
+	return 0;
+}

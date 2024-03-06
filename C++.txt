@@ -1,0 +1,19 @@
+#include <iostream>
+#include <iomanip>
+
+int main() {
+
+	double Altura;
+	double Base;
+
+	std::cout << "Ingresa Altura: ";
+	std::cin >> Altura;
+	std::cout << "Ingresa Base: ";
+	std::cin >> Base;
+
+	std::cout <<std::fixed<<std::setprecision(2)
+		<< "\nAreaaa : " << Altura * Base / 2;
+
+	return 0;
+}
+
