@@ -1,0 +1,16 @@
+#include <iostream>
+
+int main() {
+
+	int n,sum=0;
+	std::cin >> n;
+	for (int a = 1; a <=n; a++) {
+		if (a % 2 == 0) {
+			sum += a;
+		}
+	}
+
+	std::cout <<"El resulado de todas las sumas es de: " << sum;
+
+	return 0;
+}
