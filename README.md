@@ -1,3 +1,3 @@
-`Clase de lenguaje de Programacion`
+Clase de lenguaje de Programacion
 
-![](https://i.pinimg.com/236x/de/c3/b2/dec3b2b16ac5b54e6ecf4443c06550c0.jpg)
+![](https://img.freepik.com/foto-gratis/experiencia-pr…16f39e24a5dbdd4a2fd3166258c04c01a780faa6e5c1ca2fb)
