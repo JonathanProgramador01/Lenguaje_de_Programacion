@@ -31,3 +31,28 @@ int main() {
 
 	return 0;
 }
+
+
+#Segundoo ejercicio
+
+#include <iostream>
+
+unsigned int factorial(unsigned int n) {
+	if (n == 0) {
+		return 0;
+	}
+
+	if (n == 1) {
+		return 1;
+	}
+	return n * factorial(n - 1);
+}
+
+int main() {
+
+	unsigned int  n;
+	std::cin>>n;
+	unsigned int  resultado = factorial(n);
+	std::cout<<resultado;
+	return 0;
+}
