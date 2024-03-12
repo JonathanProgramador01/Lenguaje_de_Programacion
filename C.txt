@@ -30,28 +30,3 @@ int main() {
 
 
 
-#Segundo Programaaaa
-
-
-#define _CRT_SECURE_NO_WARNINGS
-#include <stdio.h>
-
-unsigned int factorial( unsigned int n) {
-	if (n == 0) {
-		return 0;
-	}
-
-	if (n == 1) {
-		return 1;
-	}
-	return n * factorial(n - 1);
-}
-
-int main() {
-
-	unsigned int  n;
-	scanf("%d", &n);
-	unsigned int  resultado=factorial(n);
-	printf("%d", resultado);
-	return 0;
-}
