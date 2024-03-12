@@ -1,0 +1,57 @@
+# Primer Programaaaa
+
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#define SIZE 3
+int main() {
+	//O(n)
+
+	int base[SIZE] = {0};
+
+	for (int a = 0; a < SIZE; a++) {
+		int guardar;
+		scanf("%d", &guardar);
+		base[a] = guardar;
+
+	}
+
+	int mayor = base[0];
+	for (int a = 1; a < SIZE; a++) {
+		if (mayor < base[a])
+			mayor = base[a];
+
+	}
+
+	printf("TU NUMERO MAYOR ES: %d", mayor);
+
+
+	return 0;
+}
+
+
+
+#Segundo Programaaaa
+
+
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+unsigned int factorial( unsigned int n) {
+	if (n == 0) {
+		return 0;
+	}
+
+	if (n == 1) {
+		return 1;
+	}
+	return n * factorial(n - 1);
+}
+
+int main() {
+
+	unsigned int  n;
+	scanf("%d", &n);
+	unsigned int  resultado=factorial(n);
+	printf("%d", resultado);
+	return 0;
+}

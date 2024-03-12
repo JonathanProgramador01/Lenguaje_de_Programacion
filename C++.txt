@@ -1,0 +1,33 @@
+#include <iostream>
+#include <array>
+
+const int SIZE = 3;
+
+int main() {
+
+
+	std::array<int,SIZE> Base;
+	int num;
+
+	std::cout << "Ingresa tus " << SIZE << " numeros: ";
+	for (int a = 0; a < SIZE; a++) {
+
+		std::cin >>num;
+		Base[a] = num;
+	}
+
+	int max = Base[0];
+
+	for (int a = 1; a < SIZE; a++) {
+		if (max < Base[a]) {
+			max = Base[a];
+		}
+
+	}
+	std::cout<<"Tu numeroo mayor es: "<<max;
+
+
+
+
+	return 0;
+}
