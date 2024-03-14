@@ -29,7 +29,6 @@ int main() {
 }
 
 
-<<<<<<< HEAD
 #segundo Programaaaa factorial
 
 
@@ -55,6 +54,4 @@ int main() {
 	printf("%d", resultado);
 	return 0;
 }
-=======
 
->>>>>>> be3dfe211cf251bda3c8a0b2087852e9b1a4f249
