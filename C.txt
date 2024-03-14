@@ -1,57 +1,77 @@
-# Primer Programaaaa
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-#define SIZE 3
-int main() {
-	//O(n)
-
-	int base[SIZE] = {0};
-
-	for (int a = 0; a < SIZE; a++) {
-		int guardar;
-		scanf("%d", &guardar);
-		base[a] = guardar;
-
-	}
-
-	int mayor = base[0];
-	for (int a = 1; a < SIZE; a++) {
-		if (mayor < base[a])
-			mayor = base[a];
-
-	}
-
-	printf("TU NUMERO MAYOR ES: %d", mayor);
-
-
-	return 0;
-}
-
-
-#segundo Programaaaa factorial
-
-
-#define _CRT_SECURE_NO_WARNINGS
-#include <stdio.h>
-
-unsigned int factorial( unsigned int n) {
-	if (n == 0) {
-		return 0;
-	}
-
-	if (n == 1) {
-		return 1;
-	}
-	return n * factorial(n - 1);
-}
+#include <string.h>
 
 int main() {
 
-	unsigned int  n;
+	printf("\n###################### PRIMER PROGRAMAAAAA ###################\n");
+
+
+	int n = 0;
 	scanf("%d", &n);
-	unsigned int  resultado=factorial(n);
-	printf("%d", resultado);
+
+	if (n == 0)
+		printf("Tu numero es cero :)");
+	else if (n < 0)
+		printf("Tu numero es negatvio :(( ");
+	else
+		printf("Tu numero es positivoo ");
+
+
+
+
+	printf("\n###################### SEGUNDO PROGRAMAAAAA ###################\n");
+    char nacionalidad[30];
+    int numero;
+
+    scanf("%s", nacionalidad); // No es necesario pasar la dirección de la cadena
+    scanf("%d", &numero);
+
+    if (strcmp(nacionalidad, "Iran") == 0 || strcmp(nacionalidad, "Yemen") == 0 || strcmp(nacionalidad, "Indonesia") == 0) {
+        if (numero >= 15)
+            printf("Eres mayor de edad :)");
+        else
+            printf("Eres menor de edad :(((((");
+    }
+    else if (strcmp(nacionalidad, "Canada") == 0 || strcmp(nacionalidad, "USA") == 0 || strcmp(nacionalidad, "Japon") == 0 || strcmp(nacionalidad, "Corea") == 0) {
+        if (numero >= 21)
+            printf("Eres mayor de edad :)");
+        else
+            printf("Eres menor de edad :(((((");
+    }
+    else if (strcmp(nacionalidad, "Birnamia") == 0 || strcmp(nacionalidad, "Cuba") == 0 || strcmp(nacionalidad, "Reino Unido") == 0 || strcmp(nacionalidad, "Vietman") == 0) {
+        if (numero >= 17)
+            printf("Eres mayor de edad :)");
+        else
+            printf("Eres menor de edad :(((((");
+    }
+    else {
+        if (numero >= 18)
+            printf("Eres mayor de edad :)");
+        else
+            printf("Eres menor de edad :(((((");
+    }
+
+
+
+
+
+
+	printf("\n###################### TERCER PROGRAMAAAAA ###################\n");
+
+
+	char caracter;
+	scanf(" %c", &caracter);
+
+
+	if (caracter == 'A' || caracter == 'E' || caracter == 'I' || caracter == 'O' || caracter == 'U')
+		printf("Tienes una vocal");
+	else if (caracter >= 'A' && caracter <= 'Z')
+		printf("Tienes una consonante");
+
+
+
 	return 0;
 }
 
