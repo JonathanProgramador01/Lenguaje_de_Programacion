@@ -1,0 +1,42 @@
+﻿  main.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\algorithm(7833,18): error C3892: '_First': no se puede asignar a una variable constante
+  (compilando archivo de origen "main.cpp")
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\algorithm(7833,18):
+  el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+  	C:\Users\jonat\OneDrive\Escritorio\Programas_De_La_Escuela\Lenguaje_de_Programacion\EJERCICIOS_C++\EJERCICIOS_C++\main.cpp(93,7):
+  	Vea la referencia a la creación de una instancia de la función plantilla "void std::sort<std::_Array_const_iterator<_Ty,9>>(const _RanIt,const _RanIt)" que se está compilando
+          with
+          [
+              _Ty=int,
+              _RanIt=std::_Array_const_iterator<int,9>
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\algorithm(7991,10):
+  	Vea la referencia a la creación de una instancia de la función plantilla "void std::sort<_RanIt,std::less<void>>(const _RanIt,const _RanIt,_Pr)" que se está compilando
+          with
+          [
+              _RanIt=std::_Array_const_iterator<int,9>,
+              _Pr=std::less<void>
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\algorithm(7986,5):
+  	Vea la referencia a la creación de una instancia de la función plantilla "void std::_Sort_unchecked<const int*,_Fn>(_RanIt,_RanIt,__int64,_Pr)" que se está compilando
+          with
+          [
+              _Fn=std::less<void>,
+              _RanIt=const int *,
+              _Pr=std::less<void>
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\algorithm(7956,13):
+  	Vea la referencia a la creación de una instancia de la función plantilla "_BidIt std::_Insertion_sort_unchecked<_RanIt,_Pr>(const _BidIt,const _BidIt,_Pr)" que se está compilando
+          with
+          [
+              _BidIt=const int *,
+              _RanIt=const int *,
+              _Pr=std::less<void>
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\algorithm(7836,22): error C3892: '_Hole': no se puede asignar a una variable constante
+  (compilando archivo de origen "main.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\algorithm(7839,18): error C3892: '_Hole': no se puede asignar a una variable constante
+  (compilando archivo de origen "main.cpp")
+  
