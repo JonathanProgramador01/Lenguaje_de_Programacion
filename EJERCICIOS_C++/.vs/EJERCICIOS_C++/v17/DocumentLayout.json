@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jonat\\OneDrive\\Escritorio\\Programas_De_La_Escuela\\Lenguaje_de_Programacion\\EJERCICIOS_C\u002B\u002B\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1D031B-33F8-4C9C-BFDD-C48F92757B10}|EJERCICIOS_C\u002B\u002B\\EJERCICIOS_C\u002B\u002B.vcxproj|C:\\Users\\jonat\\OneDrive\\Escritorio\\Programas_De_La_Escuela\\Lenguaje_de_Programacion\\EJERCICIOS_C\u002B\u002B\\EJERCICIOS_C\u002B\u002B\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ED1D031B-33F8-4C9C-BFDD-C48F92757B10}|EJERCICIOS_C\u002B\u002B\\EJERCICIOS_C\u002B\u002B.vcxproj|solutionrelative:EJERCICIOS_C\u002B\u002B\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 314,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Escritorio\\Programas_De_La_Escuela\\Lenguaje_de_Programacion\\EJERCICIOS_C\u002B\u002B\\EJERCICIOS_C\u002B\u002B\\main.cpp",
+              "RelativeDocumentMoniker": "EJERCICIOS_C\u002B\u002B\\main.cpp",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\Escritorio\\Programas_De_La_Escuela\\Lenguaje_de_Programacion\\EJERCICIOS_C\u002B\u002B\\EJERCICIOS_C\u002B\u002B\\main.cpp",
+              "RelativeToolTip": "EJERCICIOS_C\u002B\u002B\\main.cpp",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAAAGoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-09T23:18:36.999Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
