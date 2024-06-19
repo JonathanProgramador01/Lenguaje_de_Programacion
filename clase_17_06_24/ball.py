@@ -6,7 +6,7 @@ POCIONES_DE_Y = [20,10,-20,-10,15,-15]
 class Ball:
     def __init__(self):
         self.ball = Turtle(shape="circle")
-        self.ball.color("#EEEEEE")
+        self.ball.color("black")
         self.avanzar_x = random.choice(POCIONES_DE_X)
         self.avanzar_y = random.choice(POCIONES_DE_Y)
         self.ball.penup()
@@ -43,7 +43,7 @@ class Ball:
         #print("DISTANCIA DE x", self.ball.xcor())
         if self.ball.xcor() >= 550 or self.ball.xcor() <= -550:
             #print("ESTA TOCADOOO LA BARDAA DE XXXXX")
-            if self.ball.distance(jugador1) < 45 or self.ball.distance(jugador2) < 55:
+            if self.ball.distance(jugador1) < 55 or self.ball.distance(jugador2) < 55:
                 return True
 
 
@@ -51,8 +51,10 @@ class Ball:
 ##### flag = 2 es para mi barra x
     def cambio_de_direccion_de_x(self):
             self.avanzar_x *= -1
+    def get_y(self):
+        return self.ball.ycor()
 
 
-
-
+    def get_x(self):
+        return self.ball.xcor()
 

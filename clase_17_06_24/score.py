@@ -5,7 +5,7 @@ class Score(Turtle):
         super().__init__(visible=False)
         self.penup()
         self.speed(0)
-        self.color("#393E46")
+        self.color("#CCAACC")
         self.score_jugador1 = 0
         self.score_jugador2 = 0
 
@@ -30,3 +30,18 @@ class Score(Turtle):
         self.score_jugador2 += 1
         self.score_del_jugador2()
         self.score_del_jugador1()
+
+    def chechar_scores_jugador1(self):
+        if self.score_jugador1 == 5:
+            return True
+    def chechar_scores_jugador2(self):
+        if self.score_jugador2 == 5:
+            return True
+
+    def ganador(self):
+        self.textinput(title, "GANASTEEEE")
+
+
+
+
+

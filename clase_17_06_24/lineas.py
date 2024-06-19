@@ -7,7 +7,7 @@ class Backgroud(Turtle):
         self.speed(0)
         self.goto(x=0, y=-280)
         self.setheading(90)
-        self.pen(pencolor="#393E46", pensize=10, speed=0)
+        self.pen(pencolor="#CCAACC", pensize=10, speed=0)
         self.dotted_lines()
         self.goto(x=600, y=280)
         self.setheading(180)
