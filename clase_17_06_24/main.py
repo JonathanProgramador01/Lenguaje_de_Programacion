@@ -8,7 +8,7 @@ from tkinter import *
 from principal import snake
 
 Window_of_tkinter = Tk()
-Window_of_tkinter.title("Ping Pong")
+Window_of_tkinter.title("Menu")
 
 
 canva= Canvas(width=600,height=550)
